@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image Gallery</title>
+		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="images/Emblem_of_Sri_Lanka.svg.png" rel="icon"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	* {
+	box-sizing: border-box;
+	}
+
+	body {font-family: Verdana, sans-serif;}
+	.mySlides {display: none;}
+	img {vertical-align: middle;}
+
+	.slideshow-container {
+		width: 70%;
+		height:10%;
+		position: relative;
+		margin: auto;
+		
+	}
+
+	.text {
+		color: #f2f2f2;
+		font-size: 15px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.numbertext {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+
+	.dot {
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+	}
+
+	.active {
+		background-color: #717171;
+	}
+
+	.fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+	}
+
+	@-webkit-keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+	}
+
+	@keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+	}
+
+	@media only screen and (max-width: 300px) {
+		.text {font-size: 11px}
+	}
+	h1{
+		color:black;
+		font-family:sans-serif;
+		font-weight:bold;
+		text-align:center;
+	}
+	
+	</style>
+	</head>
+	<body>
+		
+		<div class="bg-top navbar-light">
+    	<div class="container">
+    		<div class="row no-gutters d-flex align-items-center align-items-stretch">
+    			<div class="col-md-4 d-flex align-items-center py-4">
+					<a href="index.html"><img src="images/Emblem_of_Sri_Lanka.svg.png" width="35px"style="margin-top: -5px;"></a>
+					&nbsp;&nbsp;&nbsp;
+					<a class="navbar-brand" href="index.html">National Institute <span>Of Eductaion</span></a>
+				</div>
+				
+	    		<div class="col-lg-8 d-block">
+		    		<div class="row d-flex">
+					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+					    	<div class="text">
+					    		<span>Email</span>
+						    	<span>info@nie.lk</span>
+						    </div>
+					    </div>
+					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+						    <div class="text">
+						    	<span>INQUIRIES? CALL</span>
+						    	<span>+9411 760 1601</span>
+						    </div>
+					    </div>
+					    <div class="col-md topper d-flex align-items-center justify-content-end">
+					    	<p class="mb-0">
+					    		<a href="#" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
+					    			<span>Register Now</span>
+					    		</a>
+					    	</p>
+					    </div>
+				    </div>
+			    </div>
+		    </div>
+		</div>
+    </div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container d-flex align-items-center px-4">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav mr-auto">
+	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
+				<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>               
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">                                  
+					<a class="dropdown-item" href="about.html">About us</a>                 
+					<div class="dropdown-divider"></div>                 
+					<a class="dropdown-item" href="#">Institute Structure</a>                  
+					<div class="dropdown-divider"></div>                 
+					<a class="dropdown-item" href="#">Acadamic Affairs</a> 
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Institute & Centers</a>  
+					
+				</div></li> 
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Course</a>               
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">                                  
+						<a class="dropdown-item" href="#">NIE Course</a>                 
+						<div class="dropdown-divider"></div>                 
+						<a class="dropdown-item" href="#">Course Details Request</a>                  
+						<div class="dropdown-divider"></div>                 
+						<a class="dropdown-item" href="gurugedaraQ.html">Gurugedara Subject Questions</a> 
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="gurugedaravideo.html">Gurugedara Video Materials</a>  
+						
+					</div></li> 
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download</a>               
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">                                  
+						<a class="dropdown-item" href="#">Syllabus</a>                 
+						<div class="dropdown-divider"></div>                 
+						<a class="dropdown-item" href="#">Teacher Guide</a>                  
+						<div class="dropdown-divider"></div>                 
+						<a class="dropdown-item" href="#">Other Metireals</a> 
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">### </a>  						
+						</div></li> 
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publication</a>               
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">                                  
+						<a class="dropdown-item" href="#">Research</a>                 
+							<div class="dropdown-divider"></div>                 								
+							<a class="dropdown-item" href="#">###</a>                  
+							<div class="dropdown-divider"></div>                 
+							<a class="dropdown-item" href="#">###</a> 
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">### </a>  				
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Exams</a>               
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">                                  
+						<a class="dropdown-item" href="#">Exam Type</a>                 
+						<div class="dropdown-divider"></div>                 
+						<a class="dropdown-item" href="#">Results</a>
+					</div></li> 
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register</a>               
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">                                  
+						<a class="dropdown-item" href="#">ICT Teacher Register</a>                 
+						<div class="dropdown-divider"></div>                 								
+						<a class="dropdown-item" href="#">Other Teacher Register</a>                  
+						<div class="dropdown-divider"></div>                 
+						<a class="dropdown-item" href="#">Alumi Association Register</a> 
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="External.html">Resource Person Supplier</a>  				
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">BEd Student Register</a>  				
+					</div></li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Event</a>               
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">                                  
+						<a class="dropdown-item" href="#">Gallery</a>                 
+						<div class="dropdown-divider"></div>                 
+						<a class="dropdown-item" href="#"> ### </a>
+					</div></li> 
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Staff</a>               
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">                                  
+						<a class="dropdown-item" href="#">Administration</a>                 
+						<div class="dropdown-divider"></div>                 
+						<a class="dropdown-item" href="#">Teacher Information</a>
+					</div></li> 
+				<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				<li class="nav-item"><a href="###" class="nav-link">Login</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	</nav>
+    <!-- END nav -->
+	</br>
+	<h1>Image Gallery</h1>
+	<center>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 5</div>
+				<img src="images/1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 5</div>
+				<img src="images/3.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">3 / 5</div>
+				<img src="images/Diploma/3.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 5</div>
+				<img src="images/Bakthi/17.jpg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">5 / 5</div>
+				<img src="images/Diploma/4.jpg" style="width:100%">
+			</div>
+		</div></center>
+		<br>
+
+		<div style="text-align:center">
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+		</div>
+		</br>
+		<center>
+		<a href="curriculum.html"><h3>Educational Reformss workshop 2020/07/29</a>
+		<a href="DiplomaAward.html"><h3>Diploma Award Ceramony - NCOE - 2019</a>
+		<a href="BakthiGee.html"><h3>Bakthi Gee Program - 2019</a>
+		</center>
+		
+		<footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+		  <div class="col-lg-2">
+			<a href="index.html"><img src="images/logo.png" width="90px"style="margin-top: -5px;"></a>
+		  </div>
+          <div class="col-md-6 col-lg-3">		
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2">Any Inquiries?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">National Institute of Education <br>
+						P.O. Box 21,
+						High Level Road,
+						Maharagama,<br>
+						Sri Lanka</span></li>
+					<li><a href="#"><span class="icon icon-phone"></span><span class="text">+9411 760 1601</span></a></li>
+					<li><a href="#"><span class="icon icon-phone2"></span><span class="text">+9411 760 1800 (FAX)</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@nie.lk</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Gurugedra Program</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Institute & Centers</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Syllabus</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Login</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2">Subscribe Us!</h2>
+              <form action="#" class="subscribe-form">
+                <div class="form-group">
+                  <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
+                  <input type="submit" value="Subscribe" class="form-control submit px-3">
+                </div>
+              </form>
+            </div>
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
+            	<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                <li class="ftco-animate"><a href="https://twitter.com"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://facebook.com"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://instagram.com"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. <br>~ Concept designed and developed by <a href="###" target="_blank">VIP Technologies</a> ~</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+	
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+
+</script>
+
+</body>
+</html> 
