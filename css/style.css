@@ -4,7 +4,7 @@
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
-  --red: #dc3545;
+  -- : #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
@@ -459,7 +459,7 @@ pre {
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
-
+ 
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -9862,3 +9862,4 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+    
