@@ -1,0 +1,164 @@
+#upernav{
+    height: 30px;
+    width: 100%;
+    background-color: #3B4992;
+    color: white;
+   text-align: center;
+
+}
+body{
+    background-color:	#f6f6f6;
+}
+
+#upnav.i{
+    padding-right: 20px;
+}
+
+.nav-item a:hover {
+    background-color: rgb(194, 220, 245);
+    color: rgb(94, 86, 86);
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  .fixnav{
+      position:fixed;
+  }
+
+  .vmore {
+    position: absolute;
+    padding: 5px 10px;
+    background-color: 	#FC863E;
+    color: #ffffff!important;
+    right: 30px;
+    top: 57px;
+    border-radius: 15px;
+}
+
+
+
+.profimg {
+    display: block;
+    height: 10em;
+    width: 8em;
+    margin-right: auto;
+    border: .5em solid #f2f2f2;
+    border-radius: 25%;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    max-width: 8em;
+    overflow: hidden;
+}
+
+
+
+
+.proftxt {
+    margin-top: -130px;
+    margin-left: 85px;
+    padding: 1px 5px 15px 55px;
+    background: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+
+.profile {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    background-color: #fff;
+    color: #444;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.profname {
+    margin-right: 12px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 3px;
+    font-size: 1.5em;
+    text-align: left;
+    color: black;
+    text-transform: capitalize;
+    margin-top: 12px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-container {
+    text-align: center;
+    max-width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.profschool {
+    color: #4a4a4a;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+.profschool {
+    max-width: 500px;
+    display: inline-block;
+}
+
+.profcode {
+    color: #747171;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+body{
+    background-color:#FC914F;   
+}
+.reg-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: brown;
+    }
+
+.reg-form{
+    margin-left: 20%;
+    margin-right: 20%;
+    background:white;
+    margin-top: 50px;
+    width:auto;
+    padding: 2em ;
+    border-radius: 15px;
+
+}
+
+.form-intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2em;
+}
+.btn btn-primary{
+  padding-left: 2em;
+  text-decoration: underline;
+}
+
+.form-title{
+  text-align: center;
+  font-weight: 500;
+  color:darkred;
+}
